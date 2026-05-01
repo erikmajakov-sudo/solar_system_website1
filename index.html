@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Experience</title>
+    <link rel="stylesheet" href="solarsystem.css">
+</head>
+
+<body>
+
+    <!-- Star background -->
+    <div class="main"></div>
+
+    <div class="header">
+    <h1>Our Solar System</h1>
+    <p class="subtitle">The vast journey begins here...</p>
+</div>
+
+    <div class="space-container">
+        <main class="solar-system">
+
+            <!-- Mercury -->
+            <div id="planet-mercury-wrapper" class="planet-wrapper">
+                <div class="planet mercury" onclick="togglePlanetJump('planet-mercury-wrapper')">
+                    <div class="planet-info">
+                           <div class="info-center-content">
+                            <h2>Mercury</h2>
+                            <p>The smallest planet</p>
+                        </div>
+
+                        <div class="info-image-side">
+                            <div class="image-slot slot1">
+                            <img src="images/Picsart_26-04-28_13-28-57-032.png" alt="Mercury image 1">
+                            <div class="slot-text">Temp: 167°C</div>
+                               </div>
+                               <div class="image-slot">
+                                <img src="images/Picsart_26-04-30_13-47-54-843.png" alt="Mercury image 2">
+                                <div class="slot-text">Distance 0.4 AU</div>
+                               </div>
+                                <div class="image-slot">
+                              <img src="images/Picsart_26-04-28_13-38-07-816.png" alt="Mercury image 3">
+                              <div class="slot-text">Size: 0.38X earth</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Venus -->
+            <div id="planet-venus-wrapper" class="planet-wrapper">
+                <div class="planet venus" onclick="togglePlanetJump('planet-venus-wrapper')">
+                    <div class="planet-info">
+                        <div class="info-center-content">
+                            <h2>Venus</h2>
+                            <p>Earth's sister</p>
+                        </div>
+
+                        <div class="info-image-side">
+                            <div class="image-slot">
+                            <img src="images/Picsart_26-04-28_13-29-14-544.png" alt="Venus image 1">
+                            <div class="slot-text">Temp: 464°C</div>
+                            </div>
+                            <div class="image-slot">
+                            <img src="images/Picsart_26-04-30_13-52-23-418.png" alt="Venus image 2">
+                            <div class="slot-text">Distance 0.7 AU</div>
+                            </div>
+                            <div class="image-slot">
+                            <img src="images/Picsart_26-04-28_13-37-20-014.png" alt="Venus image 3">
+                            <div class="slot-text">Size: 0.95 earth</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Earth -->
+            <div id="planet-earth-wrapper" class="planet-wrapper">
+                <div class="planet earth" onclick="togglePlanetJump('planet-earth-wrapper')">
+                    <div class="planet-info">
+                    <div class="info-center-content">
+                            <h2>Earth</h2>
+                            <p>Where we live</p>
+                        </div>
+
+                        <div class="info-image-side">
+                            <div class="image-slot">
+                            <img src="images/Picsart_26-04-28_13-30-07-694.png" alt="Earth image 2">
+                            <div class="slot-text">Temp: 15°C</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mars -->
+            <div id="planet-mars-wrapper" class="planet-wrapper">
+                <div class="planet mars" onclick="togglePlanetJump('planet-mars-wrapper')">
+                    
+                    <div class="planet-info">
+                        <div class="info-center-content">
+                            <h2>Mars</h2>
+                            <p>The Red One!</p>
+                        </div>
+
+                        <div class="info-image-side">
+                <div class="image-slot slot1">
+                <img src="images/Picsart_26-04-28_13-29-53-778.png" alt="Mars image 1">
+                <div class="slot-text">Temp: -65°C</div>
+                </div>
+                <div class="image-slot slot2">
+                <img src="images/Picsart_26-04-30_13-53-03-738.png" alt="Mars image 2">
+                <div class="slot-text">Distance 1.5 AU</div>
+                </div>
+                <div class="image-slot slot3">
+                <img src="images/Picsart_26-04-28_13-36-50-585.png" alt="Mars image 3">
+                <div class="slot-text">Size: 0.53X earth</div>
+                </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+<!-- Jupiter -->
+<div id="planet-jupiter-wrapper" class="planet-wrapper">
+    <div class="planet jupiter" onclick="togglePlanetJump('planet-jupiter-wrapper')">
+        
+        <div class="planet-info">
+
+            <div class="info-center-content">
+                <h2>Jupiter</h2>
+                <p>The biggest planet!</p>
+            </div>
+
+            <div class="info-image-side">
+
+                <!-- Slot 1 -->
+                <div class="image-slot slot1">
+                    <img src="images/Picsart_26-04-28_13-30-28-275.png" alt="Jupiter image 1">
+                    <div class="slot-text">Temp: -110°C</div>
+                </div>
+
+                <!-- Slot 2 -->
+                <div class="image-slot slot2">
+                    <img src="images/Picsart_26-04-30_13-52-45-888.png" alt="Jupiter image 2">
+                    <div class="slot-text">Distance 5.2 AU</div>
+                </div>
+
+                <!-- Slot 3 -->
+                <div class="image-slot slot3">
+                    <img src="images/Picsart_26-04-28_13-32-39-354.png" alt="Jupiter image 3">
+                    <div class="slot-text">Size: 11.0X earth</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+            <!-- Saturn -->
+            <div id="planet-saturn-wrapper" class="planet-wrapper">
+                <div class="planet saturn" onclick="togglePlanetJump('planet-saturn-wrapper')">
+                    
+                    <div class="planet-info">
+                        <div class="info-center-content">
+                    <h2>Saturn</h2>
+                    <p>The second biggest!</p>
+                        </div>
+
+            <div class="info-image-side">
+                <div class="image-slot slot1">
+                <img src="images/Picsart_26-04-28_13-30-41-763.png" alt="Saturn image 1">
+                <div class="slot-text">Temp: -140°C</div>
+                </div>
+                <div class="image-slot slot2">
+                <img src="images/Screenshot 2026-04-30 at 13.33.43 (1).png" alt="Saturn image 2">
+                <div class="slot-text">Distance 9.5 AU</div>
+                </div>
+                <div class="image-slot slot3">
+                <img src="images/Picsart_26-04-28_13-33-12-218.png" alt="Saturn image 3">
+                <div class="slot-text">Size: 0.5 x</div>
+                </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Uranus -->
+<div id="planet-uranus-wrapper" class="planet-wrapper"> 
+    <div class="planet uranus" onclick="togglePlanetJump('planet-uranus-wrapper')">
+        
+        <div class="planet-info">
+            
+            <div class="info-center-content">
+                <h2>Uranus</h2>
+                <p>An ice giant tilted on its side.</p>
+            </div>
+
+            <div class="info-image-side">
+                <div class="image-slot slot1">
+                    <img src="images/1000048484.png" alt="Uranus image 1">
+                    <div class="slot-text">Temp: -195°C</div>
+                </div>
+
+                <div class="image-slot slot2">
+                    <img src="images/Picsart_26-04-30_13-47-27-474.png" alt="Uranus image 2">
+                    <div class="slot-text">Distance 19.2 AU</div>
+                </div>
+
+                <div class="image-slot slot3">
+                    <img src="images/Picsart_26-04-28_13-35-08-881.png" alt="Uranus image 3">
+                    <div class="slot-text">Size: 4.0X earth</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+            <!-- Neptune -->
+<div id="planet-neptune-wrapper" class="planet-wrapper">
+    <div class="planet neptune" onclick="togglePlanetJump('planet-neptune-wrapper')">
+                    
+        <div class="planet-info">
+                           
+            <div class="info-center-content">
+                <h2>Neptune</h2>
+                <p>The other ice gaint</p>
+            </div>
+
+            <div class="info-image-side">
+                <div class="image-slot slot1">
+                    <img src="images/1000048616.jpg" alt="Uranus image 1">
+                    <div class="slot-text">Temp: -200°C</div>
+                </div>
+
+                <div class="image-slot slot2">
+                    <img src="images/Screenshot 2026-04-30 at 13.27.59 (1).png" alt="Uranus image 2">
+                    <div class="slot-text">Distance 30.1 AU</div>
+                </div>
+
+                <div class="image-slot slot3">
+                    <img src="images/Picsart_26-04-28_13-34-30-472.png" alt="Uranus image 3">
+                    <div class="slot-text">Size: 3.9X earth</div>
+                </div>
+              </div>
+        
+            </div>
+                          
+    </div>
+</div>
+
+        </main>
+    </div>
+
+    <script src="solarsystem.js"></script>
+
+</body>
+</html>
